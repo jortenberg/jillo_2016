@@ -1,0 +1,55 @@
+
+body {
+  font-size: 1.15em;
+  line-height: 1.725em;
+}
+
+#logo a {
+    font-size: 1.6em;
+}
+
+#logo {
+    float: left;
+    padding-right: 4%;
+    padding-top: .1em;
+}
+
+#internal {
+    padding-top: .5em;
+}
+
+#external {
+    padding-top: .16em;
+}
+
+nav ul li a{
+    padding-right: .75em;
+    font-size: .9em;
+}
+
+header {
+    height: 2.9em;
+}
+
+.container {
+	padding-top: .3em;
+}
+
+#profile {
+    margin-top: 3em;
+}
+
+.fa {
+    letter-spacing: -0.18em;
+}
+
+div .portrait {
+    padding-top: 2%;
+    width: 61%;
+}
+
+.portraitcopy {
+    padding-top: 2%;
+    width: 35%;
+    float: right;
+}
