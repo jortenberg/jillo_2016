@@ -1,14 +1,17 @@
 
 
 $(document).ready(function(){
-  $('.single-item').slick({
-    autoplay: true,
-    autoplaySpeed: 3500,
-    arrows: false,
-    dots: true,
-    pauseOnDotsHover: true,
-    speed: 200,
-  });
+  setTimeout( function() {
+    $('.single-item').slick({
+      autoplay: true,
+      autoplaySpeed: 3500,
+      arrows: false,
+      dots: true,
+      pauseOnDotsHover: true,
+      speed: 200,
+    });
+  }, 1000)
+
   $('#to-work').click(function() {
     var x = $('#at-work').position();
     var y = x.top - 54;
